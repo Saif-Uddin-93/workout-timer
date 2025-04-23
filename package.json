@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"dev": "tailwindcss -i assets\\css\\input.css -o assets\\css\\output.css --watch",
+		"git": "git commit -am '$(m)' && git push"
+	},
+	"devDependencies": {
+		"tailwindcss": "^4.1.4"
+	}
+}
